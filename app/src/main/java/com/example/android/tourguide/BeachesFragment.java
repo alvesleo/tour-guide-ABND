@@ -25,8 +25,16 @@ public class BeachesFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.place_list, container, false);
 
         final ArrayList<Place> places = new ArrayList<Place>();
-        places.add(new Place("Praia do Frances", "blablabla"));
-        places.add(new Place("Praia da Jatiúca", "blabla"));
+        places.add(new Place(R.string.gunga_beach, R.string.gunga_beach_summary,
+                R.drawable.gunga_beach));
+        places.add(new Place(R.string.frances_beach, R.string.frances_beach_summary,
+                R.drawable.frances_beach));
+        places.add(new Place(R.string.pajucara_beach, R.string.pajucara_beach_summary,
+                R.drawable.pajucara_beach));
+        places.add(new Place(R.string.ponta_verde_beach, R.string.ponta_verde_beach_summary,
+                R.drawable.ponta_verde_beach));
+        places.add(new Place(R.string.carro_quebrado_beach, R.string.carro_quebrado_beach_summary,
+                R.drawable.carro_quebrado_beach));
 
         RecyclerView mRecyclerView = (RecyclerView) rootView.findViewById(R.id.list_place);
         PlaceAdapter adapter = new PlaceAdapter(places);

@@ -7,32 +7,32 @@ package com.example.android.tourguide;
 public class Place {
 
     //Name of the place
-    private String mPlaceName;
+    private int mPlaceNameId;
 
     //Description of the place
-    private String mPlaceDescription;
+    private int mPlaceSummaryId;
 
     //Image of the place
-    //private int mImagePlaceId;
+    private int mImagePlaceId;
 
-    public Place (String placeName, String placeDescription){
-        mPlaceName = placeName;
-        mPlaceDescription = placeDescription;
-       // mImagePlaceId = imagePlaceId;
+    public Place (int placeNameId, int placeSummaryId, int imagePlaceId){
+        mPlaceNameId = placeNameId;
+        mPlaceSummaryId = placeSummaryId;
+        mImagePlaceId = imagePlaceId;
     }
 
     //Get the name of the place
-    public String getPlaceName() {
-        return mPlaceName;
+    public int getPlaceNameId() {
+        return mPlaceNameId;
     }
 
     //Get the description of the place
-    public String getPlaceDescription() {
-        return mPlaceDescription;
+    public int getPlaceSummaryId() {
+        return mPlaceSummaryId;
     }
 
     //Get the image of the place
-//    public int getImagePlaceId() {
-//        return mImagePlaceId;
-//    }
+    public int getImagePlaceId() {
+        return mImagePlaceId;
+    }
 }

@@ -1,6 +1,55 @@
 <resources>
     <string name="app_name">Tour Guide</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Categories names-->
+    <string name="category_beach">PRAIAS</string>
+    <string name="category_restaurant">COMIDAS</string>
+    <string name="category_museum"> MUSEUS</string>
+    <string name="category_church"> IGREJAS</string>
+    <!-- Beaches names-->
+    <string name="gunga_beach">Praia do Gunga</string>
+    <string name="frances_beach">Praia do Francês</string>
+    <string name="pajucara_beach">Praia da Pajuçara</string>
+    <string name="ponta_verde_beach">Praia da Ponta Verde</string>
+    <string name="carro_quebrado_beach">Praia do Carro Quebrado</string>
+    <!-- Beaches summaries -->
+    <string name="gunga_beach_summary">Praia do Gunga</string>
+    <string name="frances_beach_summary">Praia do Francês</string>
+    <string name="pajucara_beach_summary">Praia da Pajuçara</string>
+    <string name="ponta_verde_beach_summary">Praia da Ponta Verde</string>
+    <string name="carro_quebrado_beach_summary">Praia do Carro Quebrado</string>
+    <!-- Restaurants names-->
+    <string name="maria_restaurant">Maria Antonieta</string>
+    <string name="bodega_restaurant">Bodega do Sertão</string>
+    <string name="lopana_restaurant">Lopana</string>
+    <string name="mainha_restaurant">Casa da Mainha</string>
+    <string name="parmegiano_restaurant">Parmegiano</string>
+    <!-- Restaurants summary-->
+    <string name="maria_restaurant_summary">Maria Antonieta</string>
+    <string name="bodega_restaurant_summary">Bodega do Sertão</string>
+    <string name="lopana_restaurant_summary">Lopana</string>
+    <string name="mainha_restaurant_summary">Casa da Mainha</string>
+    <string name="parmegiano_restaurant_summary">Parmegiano</string>
+    <!-- Museums names-->
+    <string name="imagem_e_som_museum">Museu da Imagem e do Som</string>
+    <string name="ist_historico_museum">Istituto Histórico e Geográfico</string>
+    <string name="theo_museum">Museu Théo Brandão</string>
+    <string name="floreino_museum">Palácio Floriano Peixoto</string>
+    <string name="arte_museum">Museu de Arte Brasileira</string>
+    <!-- Museums summary-->
+    <string name="imagem_e_som_museum_summary">Museu da Imagem e do Som</string>
+    <string name="ist_historico_museum_summary">Istituto Histórico e Geográfico</string>
+    <string name="theo_museum_summary">Museu Théo Brandão</string>
+    <string name="floriano_museum_summary">Palácio Floriano Peixoto</string>
+    <string name="arte_museum_summary">Museu de Arte Brasileira</string>
+    <!-- Churches names -->
+    <string name="catedral_church">Catedral de Nossa Senhora dos Prazeres</string>
+    <string name="senhora_do_o_church">Igreja de Nossa Senhora do Ó</string>
+    <string name="martirios_church">Igreja Bom Jesus dos Martírios</string>
+    <string name="rosario_church">Igreja Nossa Senhora do Rosário</string>
+    <!-- Churches summary -->
+    <string name="catedral_church_summary">Catedral de Nossa Senhora dos Prazeres</string>
+    <string name="senhora_do_o_church_summary">Igreja de Nossa Senhora do Ó</string>
+    <string name="martirios_church_summary">Igreja Bom Jesus dos Martírios</string>
+    <string name="rosario_church_summary">Igreja Nossa Senhora do Rosário</string>
 </resources>

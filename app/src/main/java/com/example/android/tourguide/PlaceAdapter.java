@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -26,12 +27,14 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.ViewHolder> 
 
         public TextView mPlaceName;
         public TextView mPlaceSummary;
+        public ImageView mPlaceImage;
         public final Context context;
 
         public ViewHolder(final Context context, View v) {
             super(v);
             mPlaceName = (TextView) v.findViewById(R.id.title_text);
-            mPlaceSummary = (TextView) v.findViewById(R.id.description_text);
+            mPlaceSummary = (TextView) v.findViewById(R.id.summary_text);
+            mPlaceImage = (ImageView) v.findViewById(R.id.place_image);
             this.context = context;
         }
 
@@ -50,8 +53,9 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.ViewHolder> 
     public void onBindViewHolder(PlaceAdapter.ViewHolder viewHolder, int position) {
         Place currentPlace = mPlace.get(position);
 
-        viewHolder.mPlaceName.setText(currentPlace.getPlaceName());
-        viewHolder.mPlaceSummary.setText(currentPlace.getPlaceDescription());
+        viewHolder.mPlaceName.setText(currentPlace.getPlaceNameId());
+        viewHolder.mPlaceSummary.setText(currentPlace.getPlaceSummaryId());
+        viewHolder.mPlaceImage.setImageResource(currentPlace.getImagePlaceId());
     }
 
     @Override
